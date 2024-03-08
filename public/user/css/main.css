@@ -1,0 +1,147 @@
+.body {
+  background-color: #fafafa;
+}
+
+.content-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.content-1 .n1 {
+
+}
+.content-1 .n2 img {
+  margin-top: 150px;
+}
+.content-1 .n3 {
+  
+}
+
+.content-1 .n4 {
+  padding: 10px;
+  background-color: #448EBF;
+  width: 787px;
+  height: 380px;
+  border-radius: 146px 0 0 146px;
+}
+
+@media(max-width: 1135px) {
+.content-1 .n4 {
+  padding: 10px;
+  background-color: #448EBF;
+  width: 687px;
+  height: 380px;
+  border-radius: 146px 0 0 146px;
+  }
+
+.content-1 .n2 img {
+  margin-top: 100px;
+}
+}
+
+@media(max-width: 990px) {
+.content-1 .n4 {
+  padding: 10px;
+  background-color: #448EBF;
+  width: 587px;
+  height: 380px;
+  border-radius: 146px 0 0 146px;
+  }
+
+.content-1 .n2 img {
+  margin-top: 50px;
+}
+}
+
+@media(max-width: 790px) {
+.content-1 .n4 {
+  padding: 10px;
+  background-color: #448EBF;
+  width: 487px;
+  height: 380px;
+  border-radius: 146px 0 0 146px;
+  }
+}
+
+.content-1 .n4 h1, .content-1 .n4 p {
+  padding: 20px 20px;
+  color: white;
+  margin-left: 10%;
+}
+
+.ingfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.ingfo button {
+  color: white;
+  font-size: 20px;
+  border: none;
+  background-color: #448EBF;
+  border-radius: 146px;
+  padding: 0px;
+  width: 346px;
+  height: 57px;
+}
+
+.bot-content {
+  margin: 60px 80px 60px 80px;
+}
+
+.alur h3 {
+  grid-column: span 3;
+}
+
+.alur {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  margin-bottom: 100px;
+}
+
+.alur img {
+  width: 1000px;
+  height: auto;
+}
+
+.persyaratan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  column-gap: 10rem;
+}
+
+.persyaratan h3 {
+  grid-column: span 2;
+  font-size: 30px;
+  color: #448EBF;
+  height: auto;
+}
+
+.persyaratan .button-ajukan {
+  margin: auto;
+  grid-column: span 2;
+}
+
+.persyaratan img {
+  width: 510px;
+  height: auto;
+}
+
+.bot-content button {
+  margin-top: 100PX;
+  color: white;
+  font-size: 20px;
+  border: none;
+  background-color: #448EBF;
+  border-radius: 146px;
+  padding: 0px;
+  width: 230px;
+  height: 57px;
+}
+
